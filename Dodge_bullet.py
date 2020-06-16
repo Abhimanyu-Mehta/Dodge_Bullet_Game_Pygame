@@ -8,6 +8,11 @@ width = 800
 height = 600
 screen = pygame.display.set_mode((width, height))
 
+pygame.display.set_caption("Dodge Bullet")
+
+icon = pygame.image.load('guns_icon.png')
+pygame.display.set_icon(icon)
+
 background_load = pygame.image.load('fight_background.png')
 background = pygame.transform.scale(background_load, (800, 600))
 
